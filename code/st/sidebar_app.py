@@ -4,9 +4,9 @@ import streamlit as st
 from PIL import Image
 
 # ---------- 사이드바 화면 구성 --------------------
-st.sidebar.title("사이드바 ")
+st.sidebar.title("사이드바")
 st.sidebar.header("텍스트 입력 사용 예")
-user_id = st.sidebar.text_input('아이디(ID) 입력', value="streamlit", max_chars=15)
+user_id = st.sidebar.text_input('아이디(ID) 입력', value="이준혁", max_chars=15)
 user_password = st.sidebar.text_input('패스워드(Password) 입력', value="abcd", type="password")
 
 st.sidebar.header("셀렉트박스 사용 예")
@@ -15,7 +15,7 @@ your_option = st.sidebar.selectbox('좋아하는 작품은?', selectbox_options,
 st.sidebar.write('**당신의 선택**:', your_option)
 
 # ---------- 메인(Main) 화면 구성 --------------------
-st.title("스트림릿의 사이드바 사용 예")
+st.title("이준혁:스트림릿의 사이드바 사용")
 
 folder = 'data/st/'
 
